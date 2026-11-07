@@ -1,0 +1,649 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "title": "Copia de respaldo: USGS, sismos de magnitud 4.5+ (selección de 40, 4 de octubre de 2026)",
+  "count": 40
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "South Sandwich Islands region",
+    "time": 1791078472030
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -23.3522,
+     -58.1594,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "21 km NE of Lae, Papua New Guinea",
+    "time": 1791077926078
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1353,
+     -6.5916,
+     94.221
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.6,
+    "place": "80 km S of Banda Aceh, Indonesia",
+    "time": 1791070655621
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.2428,
+     4.8223,
+     69.726
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "293 km SSE of Tabiauan, Philippines",
+    "time": 1791069275782
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     122.9296,
+     3.5895,
+     575.042
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.9,
+    "place": "39 km WSW of Tambolaka, Indonesia",
+    "time": 1791068155358
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.9078,
+     -9.5672,
+     45.951
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "121 km SW of Puerto Madero, Mexico",
+    "time": 1791059625577
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.3523,
+     14.1052,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.1,
+    "place": "182 km SSE of Vilyuchinsk, Russia",
+    "time": 1791057644104
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.8296,
+     51.5457,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "72 km NE of Sittwe, Burma (Myanmar)",
+    "time": 1791051166916
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.3991,
+     20.6061,
+     35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "76 km NNE of Lae, Papua New Guinea",
+    "time": 1791048252545
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.1678,
+     -6.0496,
+     81.86
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "Kermadec Islands region",
+    "time": 1791035471299
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -179.4827,
+     -27.4948,
+     453.487
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "112 km S of Koshima, Japan",
+    "time": 1791007521157
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.6125,
+     29.221,
+     37.466
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "163 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "time": 1790996346296
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     160.4217,
+     52.0836,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "7 km NNW of Ibusuki, Japan",
+    "time": 1790986298239
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.6093,
+     31.2953,
+     126.853
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "121 km SSE of Vilyuchinsk, Russia",
+    "time": 1790985698784
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.2731,
+     51.9749,
+     38.69
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "174 km SSE of Vilyuchinsk, Russia",
+    "time": 1790985566824
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.7182,
+     51.5846,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.7,
+    "place": "153 km SSE of Vilyuchinsk, Russia",
+    "time": 1790985253503
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.4679,
+     51.7161,
+     35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "171 km SE of Vilyuchinsk, Russia",
+    "time": 1790974455391
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.8843,
+     51.6886,
+     30.93
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.7,
+    "place": "52 km SSW of Vilyuchinsk, Russia",
+    "time": 1790973501109
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     158.2168,
+     52.4691,
+     89.108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "46 km SSW of Paratunka, Russia",
+    "time": 1790973468318
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     158.0496,
+     52.5605,
+     74.647
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "86 km E of Noda, Japan",
+    "time": 1790973296862
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.8232,
+     40.0341,
+     49.952
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.1,
+    "place": "199 km SSE of Vilyuchinsk, Russia",
+    "time": 1790972847120
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.665,
+     51.3149,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "67 km ESE of Kokopo, Papua New Guinea",
+    "time": 1790972762878
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.8363,
+     -4.565,
+     86.736
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "136 km SSE of Vilyuchinsk, Russia",
+    "time": 1790972729894
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.3971,
+     51.862,
+     38.829
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "179 km SSE of Vilyuchinsk, Russia",
+    "time": 1790965520940
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.8307,
+     51.5775,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "56 km SSE of Mawlaik, Burma (Myanmar)",
+    "time": 1790960133449
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.5469,
+     23.1453,
+     103.866
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.8,
+    "place": "165 km SSE of Vilyuchinsk, Russia",
+    "time": 1790958881010
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     159.7398,
+     51.6873,
+     29.477
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "26 km SSW of Güiria, Venezuela",
+    "time": 1790958685762
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -62.4223,
+     10.3698,
+     9.763
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.6,
+    "place": "20 km ESE of Petropavlovsk-Kamchatsky, Russia",
+    "time": 1790956930426
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     158.9242,
+     53.0163,
+     99.084
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.7,
+    "place": "5 km NNE of Korumburra, Australia",
+    "time": 1790956899581
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.8401,
+     -38.3802,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "7 km NE of Chalandrítsa, Greece",
+    "time": 1790954802710
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     21.8509,
+     38.1524,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "78 km WSW of San Nicolas, Philippines",
+    "time": 1790953819729
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.4593,
+     14.571,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "6 km E of Inglewood, New Zealand",
+    "time": 1790949435838
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     174.2598,
+     -39.1598,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "63 km SW of Panguna, Papua New Guinea",
+    "time": 1790939654383
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     155.0136,
+     -6.6368,
+     38.25
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "35 km SSW of El Colomo, Mexico",
+    "time": 1790924015007
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.3753,
+     18.7561,
+     23.972
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "101 km NE of Ruteng, Indonesia",
+    "time": 1790923686954
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.0985,
+     -7.9511,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "192 km WNW of Tobelo, Indonesia",
+    "time": 1790919535084
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.4944,
+     2.5781,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.1,
+    "place": "159 km SE of Gizo, Solomon Islands",
+    "time": 1790916293423
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     158.0215,
+     -8.9326,
+     10
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.0,
+    "place": "south of the Fiji Islands",
+    "time": 1790915225754
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     178.6446,
+     -24.7752,
+     557.245
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.9,
+    "place": "97 km S of Panguna, Papua New Guinea",
+    "time": 1790914258487
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     155.6075,
+     -7.1852,
+     35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.5,
+    "place": "2 km NE of Satte, Japan",
+    "time": 1790888501707
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7487,
+     36.0904,
+     65.032
+    ]
+   }
+  }
+ ]
+}
