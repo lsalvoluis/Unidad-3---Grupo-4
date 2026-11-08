@@ -75,7 +75,7 @@ cargarBitcoin();
 // -----------------------------------------
 
 function registroMasCercano(serie, fechaObjetivo) {
-    // Encuentra el precio más cercano a una fecha.
+    // Encuentra el precio más cercano a una fecha. FG
 
     let mejor = serie[0];
     let menorDistancia = 999999999;
@@ -101,7 +101,7 @@ function registroMasCercano(serie, fechaObjetivo) {
 // -----------------------------------------
 
 function construirPeriodosBitcoin(serie) {
-    // Compara los precios separados por un año.
+    // Compara los precios separados por un año. FG
 
     // 1. Obtener la primera y última fecha.
     let inicio = new Date(serie[serie.length - 1].fecha);
@@ -147,7 +147,7 @@ function construirPeriodosBitcoin(serie) {
 
 
 function leerSenal() {
-  // Lee la señal de la fuente seleccionada.
+  // Lee la señal de la fuente seleccionada. FG
   if (fuente === "micro") {
     // getLevel() entrega valores pequeños: casi siempre bajo 0.2.
     // Este 0.2 es una primera suposición; se ajusta en la Clase 5.
@@ -172,7 +172,7 @@ function leerSenal() {
 // -----------------------------------------
 
 function crearEnjambre() {
-  // Crea las partículas iniciales.
+  // Crea las partículas iniciales. FG
   for (let i = 0; i < cantidad; i++) {
     enjambre.push({
       x: random(diametro, width - diametro),
@@ -184,13 +184,13 @@ function crearEnjambre() {
 }
 
 function mover(a) {
-  // Actualiza la posición de una partícula.
+  // Actualiza la posición de una partícula.FG
   a.x += a.vx;
   a.y += a.vy;
 }
 
 function aplicarBorde(a) {
-  // Rebota la partícula al tocar un borde.
+  // Rebota la partícula al tocar un borde.FG
   if (a.x < diametro / 2 || a.x > width - diametro / 2) {
     a.vx *= -1;
     a.x = constrain(a.x, diametro / 2, width - diametro / 2);
@@ -278,7 +278,7 @@ return suma / n;
 // -----------------------------------------
 
 function setup() {
-  // Prepara el lienzo, micrófono y cámara.
+  // Prepara el lienzo, micrófono y cámara.FG
   createCanvas(400, 400);
   crearEnjambre();
 
@@ -298,7 +298,7 @@ function mousePressed() {
 }
 
 function draw() {
-  // Redibuja la escena en cada fotograma.
+  // Redibuja la escena en cada fotograma.FG
   background(245, 243, 235);
 
 //Lerp se usa en senal para suavizar la señal, de manera que no cambie bruscamente de un valor a otro.
