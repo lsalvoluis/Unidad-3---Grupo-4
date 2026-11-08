@@ -31,12 +31,12 @@ let bitcoinPeriodos = [];
 let imagenBitcoin;
 
 function preload() {
-  imagenBitcoin = loadImage("./Código Final/Bitcoin.jpg");
+  imagenBitcoin = loadImage("./Bitcoin.jpg");
 }
 
 async function cargarBitcoin() {
     try {
-        const respuesta = await fetch("./Código Final/bitcoin.json");
+        const respuesta = await fetch("./bitcoin.json");
 
         if (!respuesta.ok) {
             throw new Error("Error al cargar Bitcoin");
