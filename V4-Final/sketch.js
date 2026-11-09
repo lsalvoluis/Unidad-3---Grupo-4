@@ -2,6 +2,7 @@
 // CÓDIGO BASE ORIGINAL (Unidad 3 · Clase 2 · El oído)
 // ==========================================
 let enjambre = [], cantidad = 40, diametro = 14, limiteVelocidad = 2;
+//Fuentes disponibles: "micro", "mouse", "ruido", "camara", "bitcoin"
 let fuente = "bitcoin";
 let mic, microActivo = false, video, camActiva = false, senal = 0;
 
@@ -10,6 +11,8 @@ let mic, microActivo = false, video, camActiva = false, senal = 0;
 // ==========================================
 let datosBitcoin = [], bitcoinPeriodos = [], agentesBitcoin = [], variacionBitcoinMax = 0, imagenBitcoin;
 
+//cargarBitcoin fue creada con inteligencia artificial para leer un archivo JSON con datos históricos de Bitcoin y
+//procesarlos para crear periodos de variación. Luego, sincroniza estos periodos con los agentes visuales en el lienzo
 async function cargarBitcoin() {
 try {
 const respuesta = await fetch("bitcoin.json");
@@ -28,6 +31,8 @@ console.error(error);
 }
 }
 
+//sincronizarAgentesBitcoin toma los periodos de variación de Bitcoin y los asigna a los agentes,
+//ajustando su posición y velocidad según la magnitud de la variación
 function sincronizarAgentesBitcoin(periodos) {
 variacionBitcoinMax = Math.max(0, ...periodos.map(p => Math.abs(p.variacion)));
 
@@ -41,6 +46,7 @@ return { periodo, x: random(20, ancho - 20), y: random(20, alto - 20), vx: rando
 
 cargarBitcoin();
 
+//registroMasCercano encuentra el registro más cercano a una fecha objetivo dentro de una serie de datos
 function registroMasCercano(serie, fechaObjetivo) {
 let mejor = serie[0], menorDistancia = 999999999;
 for (let i = 0; i < serie.length; i++) {
@@ -49,7 +55,8 @@ if (distancia < menorDistancia) { menorDistancia = distancia; mejor = serie[i]; 
 }
 return mejor;
 }
-
+//construirPeriodosBitcoin genera periodos de variación de Bitcoin a partir de la serie de datos,calculando la variación 
+// porcentual entre registros separados por un año y agrupándolos en intervalos de seis meses
 function construirPeriodosBitcoin(serie) {
 let inicio = new Date(serie[serie.length - 1].fecha), final = new Date(serie[0].fecha), periodos = [];
 inicio.setFullYear(inicio.getFullYear() + 1);
